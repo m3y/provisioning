@@ -133,3 +133,16 @@ $ ghq get git@github.com:m3y/dotfiles.git
 $ cd /path/to/dotfiles
 $ ./install
 ```
+
+## Ulauncher
+インストール
+```
+$ git clone https://aur.archlinux.org/ulauncher.git
+$ cd ulauncher
+$ makepkg -is
+```
+カラーテーマのインストール
+```
+$ mkdri ~/.config/ulauncher/user-themes/
+$ git clone https://github.com/ztychr/solarized-dark-ulauncher.git ~/.config/ulauncher/user-themes/
+```
