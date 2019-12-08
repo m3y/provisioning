@@ -127,13 +127,6 @@ $ cp pull ~/.config/memo/plugins/
 $ cp push ~/.config/memo/plugins/
 ```
 
-## dotfiles 反映
-```
-$ ghq get git@github.com:m3y/dotfiles.git
-$ cd /path/to/dotfiles
-$ ./install
-```
-
 ## Ulauncher
 インストール
 ```
@@ -141,8 +134,10 @@ $ git clone https://aur.archlinux.org/ulauncher.git
 $ cd ulauncher
 $ makepkg -is
 ```
-カラーテーマのインストール
+
+## dotfiles 反映
 ```
-$ mkdri ~/.config/ulauncher/user-themes/
-$ git clone https://github.com/ztychr/solarized-dark-ulauncher.git ~/.config/ulauncher/user-themes/
+$ ghq get git@github.com:m3y/dotfiles.git
+$ cd /path/to/dotfiles
+$ ./install
 ```
