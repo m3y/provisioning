@@ -15,6 +15,7 @@ $ sudo pacman -S pass
 $ sudo pacman -S git
 $ sudo pacman -S xsel # for pbcopy
 $ sudo pacman -S alacritty
+$ sudo pacman -S pulseaudio
 $ # yay
 $ yay -S google-chrome
 $ yay -S dropbox
