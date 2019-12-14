@@ -30,6 +30,8 @@ $ mkdir ~/.local/bin
 ## 設定変更
 - スクロールを逆にする
   - Mouse and Touchpad で、Reverse scroll direction をチェック
+- 時計のフォーマットを以下に変更
+  - preference で、`%m/%d %T` を指定
 
 ## 日本語入力
 fcitx系パッケージのインストール
@@ -124,16 +126,20 @@ $ mv memo ~/.local/bin
 plugin のインストール
 ```
 $ ghq get git@github.com:m3y/memo-sync-plugins.git
-$ cd /path/to/memo-sync-plugins.git
+$ cd /path/to/memo-sync-plugins/
 $ cp pull ~/.config/memo/plugins/
 $ cp push ~/.config/memo/plugins/
+$ cp status ~/.config/memo/plugins/
+$ ghq get git@github.com:m3y/memo-til-plugin.git
+$ cd /path/to/memo-til-plugin/
+$ cp til ~/.config/memo/plugins/
 ```
 
 ## Ulauncher
 インストール
 ```
-$ git clone https://aur.archlinux.org/ulauncher.git
-$ cd ulauncher
+$ ghq get https://aur.archlinux.org/ulauncher.git
+$ cd /path/to/ulauncher
 $ makepkg -is
 ```
 
