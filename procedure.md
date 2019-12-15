@@ -135,6 +135,10 @@ $ cd /path/to/memo-til-plugin/
 $ cp til ~/.config/memo/plugins/
 ```
 
+### Thunar
+Show Hidden Files
+- View > Show Hidden Files にチェック
+
 ## Ulauncher
 インストール
 ```
