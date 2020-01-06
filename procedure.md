@@ -17,7 +17,6 @@ $ sudo pacman -S xsel # for pbcopy
 $ sudo pacman -S alacritty
 $ sudo pacman -S pulseaudio
 $ sudo pacman -S bat
-$ sudo pacman -S jq
 $ # yay
 $ yay -S google-chrome
 $ yay -S dropbox
@@ -140,12 +139,26 @@ $ cp til ~/.config/memo/plugins/
 Show Hidden Files
 - View > Show Hidden Files にチェック
 
-## Ulauncher
-インストール
+### Ulauncher
 ```
 $ ghq get https://aur.archlinux.org/ulauncher.git
 $ cd /path/to/ulauncher
 $ makepkg -is
+```
+
+### mdr
+```
+$ wget https://github.com/MichaelMure/mdr/releases/download/v0.2.2/mdr_linux_amd64
+$ chmod +x mdr_linux_amd64
+$ mv mdr_linux_amd64 ~/.local/bin/mdr
+```
+
+### gojq
+```
+$ wget https://github.com/itchyny/gojq/releases/download/v0.7.0/gojq_v0.7.0_linux_amd64.tar.gz
+$ tar zxvf gojq_v0.7.0_linux_amd64.tar.gz
+$ cd gojq_v0.7.0_linux_amd64
+$ mv gojq ~/.local/bin/
 ```
 
 ## dotfiles 反映
