@@ -110,9 +110,15 @@ $ mv peco_linux_amd64/peco ~/.local/bin/
 
 ### ghq
 ```
-$ wget https://github.com/motemen/ghq/releases/download/v0.12.9/ghq_linux_amd64.zip
+$ wget https://github.com/motemen/ghq/releases/download/v1.0.1/ghq_linux_amd64.zip
 $ unzip ghq_linux_amd64.zip
 $ mv ghq_linux_amd64/ghq ~/.local/bin/
+```
+
+### git-checkout-utility
+```
+$ ghq get git@github.com:m3y/git-checkout-utility.git
+$ cp gco ~/.local/bin/
 ```
 
 ### memo
