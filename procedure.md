@@ -173,3 +173,10 @@ $ ghq get git@github.com:m3y/dotfiles.git
 $ cd /path/to/dotfiles
 $ ./install
 ```
+
+## yubikey 設定
+```
+$ sudo pacman -S yubikey-manager opensc ccid
+$ sudo systemctl start pcscd
+$ sudo systemctl enable pcscd
+```
