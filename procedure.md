@@ -21,6 +21,7 @@ $ # yay
 $ yay -Syyu
 $ yay -S google-chrome
 $ yay -S dropbox
+$ yay -S slack-desktop
 ```
 
 ## tool インストール用のディレクトリ作成
