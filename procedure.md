@@ -167,6 +167,11 @@ $ cd gojq_v0.7.0_linux_amd64
 $ mv gojq ~/.local/bin/
 ```
 
+## Starship
+```
+$ curl -fsSL https://starship.rs/install.sh | bash
+```
+
 ## dotfiles 反映
 ```
 $ ghq get git@github.com:m3y/dotfiles.git
