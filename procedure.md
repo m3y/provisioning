@@ -18,6 +18,7 @@ $ sudo pacman -S alacritty
 $ sudo pacman -S pulseaudio
 $ sudo pacman -S bat
 $ # yay
+$ yay -Syyu
 $ yay -S google-chrome
 $ yay -S dropbox
 ```
