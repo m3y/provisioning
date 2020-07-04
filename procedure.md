@@ -9,7 +9,7 @@ $ sudo pacman-mirrors -f 0
 $ sudo pacman -Syyu
 $ sudo pacman -S yay # for chrome/dropbox ...
 $ # pacman
-$ sudo pacman -S zsh gvim tmux gpg
+$ sudo pacman -S zsh vim tmux gpg
 $ sudo pacman -S docker docker-compose
 $ sudo pacman -S pass
 $ sudo pacman -S git
