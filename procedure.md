@@ -35,6 +35,11 @@ $ mkdir ~/.local/bin
 - 時計のフォーマットを以下に変更
   - preference で、`%m/%d %T` を指定
 
+## 時間設定
+```
+$ sudo timedatectl set-ntp true
+```
+
 ## 日本語入力
 fcitx系パッケージのインストール
 ```
